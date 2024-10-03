@@ -1,0 +1,49 @@
+header{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+code{
+    font-size: 15px;
+    background-color: ghostwhite;
+}
+.content{
+    margin-left: 250px;
+    padding: 25px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    border: 2px solid grey;
+   
+}
+#navbar header{
+    margin-left: 5px;
+}
+#navbar ul{
+    color: grey;
+    list-style: none;
+    padding: 0;
+}
+#navbar ul li{
+    margin-bottom: 10px;
+}
+#navbar a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    padding-left: 15px;
+}
+@media screen and (max-width: 350px) 
+{ 
+    p{
+        font-size: 15px;
+    }
+
+}
+

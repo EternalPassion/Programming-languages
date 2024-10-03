@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Programming Language</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>A programming language is a system of notation for writing computer programs.</p>
+            <p> Programming languages are described in terms of their syntax (form) and semantics (meaning), usually
+                defined by a formal language. Languages usually provide features such as a type system, variables, and
+                mechanisms for error handling. An implementation of a programming language is required in order to
+                execute programs, namely an interpreter or a compiler. An interpreter directly executes the source code,
+                while a compiler produces an executable program.</p>
+                <p>Let's write "Hello world! in Python."</p>
+                <code>
+                    # This program prints Hello, world!<br>
+                    print('Hello, world!')
+                </code>
+                
+        </section>
+        <section class="main-section" id="Examples">
+            <header>Examples</header>
+            <p>Some examples of programming languages are: </p>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>Python</li>
+            </ul>
+            <p>.. and many more. We will talk about some of them ahead.</p>
+        </section>
+        <section class="main-section" id="C">
+            <header>C</header>
+            <p>C is a general-purpose programming language.</p>
+            <p> It was created in the 1970s by Dennis Ritchie and
+                remains very widely used and influential. By design, C's features cleanly reflect the capabilities of
+                the targeted CPUs. It has found lasting use in operating systems code (especially in kernels), device
+                drivers, and protocol stacks, but its use in application software has been decreasing. C is commonly
+                used on computer architectures that range from the largest supercomputers to the smallest
+                microcontrollers and embedded systems.
+            <p>Let's write hello world in C.</p>
+            <!--Used  code tag instead of <pre> because it was mentioned in the exercies -->
+            <code>#include &lt;stdio.h &gt;<br> 
+                    int main() {<br>
+                       // printf() displays the string inside quotation<br>
+                       printf("Hello, World!");<br>
+                       return 0;<br>
+                    }
+                    </code>
+
+            </p>
+        </section>
+        <section class="main-section" id="C++">
+            <header>C++</header>
+            <p>C++ is a high-level, general-purpose programming language created by Danish computer scientist Bjarne
+                Stroustrup. </p>
+            <p>First released
+                in 1985 as an extension of the C programming language, it has since expanded significantly over time; as
+                of
+                1997, C++ has object-oriented, generic, and functional features, in addition to facilities for low-level
+                memory manipulation for systems like microcomputers or to make operating systems like Linux or Windows.
+                It
+                is usually implemented as a compiled language, and many vendors provide C++ compilers, including the
+                Free
+                Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM.</p>
+            <p>Let's write hello world in C++.</p>
+            <code>#include &lt;iostream &gt;<br> 
+                    int main() {<br>
+                       // cout displays the string inside quotation<br>
+                       std::cout<<"Hello World!";<br>
+                       return 0;<br>
+                    }
+                    </code>
+        </section>
+        <section class="main-section" id="Java">
+            <header>Java</header>
+            <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few
+                implementation dependencies as possible.</p>
+            <p> It is a general-purpose programming language intended to let
+                programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms
+                that support Java without the need to recompile. Java applications are typically compiled to bytecode
+                that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The
+                syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java
+                runtime provides dynamic capabilities (such as reflection and runtime code modification) that are
+                typically not available in traditional compiled languages.</p>
+            <p>Let's write hello world in Java.</p>
+            <!--Used  code tag 2 times for passing the criteria. I didn't wanted to add another programming language. -->
+            <code>
+                    class Test<br>
+                    {<br>
+                    <code>  public static void main(String []args)<br>
+                       {<br>
+                           System.out.println("My First Java Program.");<br>
+                       }<br>
+                     </code>  
+                    };
+                </code>
+        </section>
+    </div>
+        <nav id="navbar">
+            <br><header>Programming Language</header><hr>
+            <ul>
+                <li><a class="nav-link"  href="#Introduction">Introduction</a></li><hr>
+                <li><a class="nav-link" href="#Examples">Examples</a></li><hr>
+                <li><a class="nav-link" href="#C">C</a></li><hr>
+                <li><a class="nav-link" href="#C++">C++</a></li><hr>
+                <li><a class="nav-link" href="#Java">Java</a></li><hr>
+                
+            </ul>
+        </nav>
+    </main>
+</body>
+
+</html>
+<!--By Aman Kumar Shaw-->
