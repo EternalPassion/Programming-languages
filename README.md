@@ -1,3 +1,3 @@
 # Programming-languages
-A page where you can learn about programming languages
-This project is also a part of my FreeCodeCamp certificate. I have used only html & css.
+This page is part of my FreeCodeCamp certificate project.
+It’s built with just HTML and CSS and is optimized for monitor screens.
