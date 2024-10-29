@@ -1,3 +1,4 @@
 # Programming-languages
 This page is part of my FreeCodeCamp certificate project.
-It’s built with just HTML and CSS and is optimized for monitor screens.
+Media tools for smaller screen hasn't been added
+Preview -- https://computer-programming-languages.netlify.app --
